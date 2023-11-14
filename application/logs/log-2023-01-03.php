@@ -1,0 +1,30 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-01-03 11:28:55 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:28:55 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:28:55 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:28:55 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:28:55 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:28:55 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:28:55 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:28:55 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:28:55 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:28:55 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:28:55 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:28:55 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:28:55 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:28:55 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:29:14 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:29:14 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:29:14 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:29:14 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:29:14 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:29:14 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:29:14 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:29:14 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:29:14 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:29:14 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:29:14 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:29:14 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:29:14 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2023-01-03 11:29:14 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81

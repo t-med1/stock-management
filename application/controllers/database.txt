@@ -1,0 +1,177 @@
+CREATE TABLE categories(
+	id_categorie int PRIMARY KEY,
+    nom_categorie varchar(30)
+);
+
+CREATE TABLE produits(
+	id_produit int PRIMARY KEY,
+    nom_produit varchar(50) ,
+    description varchar(200),
+    prix_unitaire float,
+    stock_dispo int,
+    id_categorie int ,
+    FOREIGN KEY (id_categorie) REFERENCES categories(id_categorie)
+);
+
+CREATE TABLE Fournisseurs(
+	id_fournisseur int PRIMARY KEY,
+    nom_fournisseur varchar(40),
+    adresse varchar(200),
+    num_tel varchar(25)
+);
+
+CREATE TABLE clients(
+	id_client int PRIMARY KEY,
+    nom_client varchar(40),
+    adresse varchar(150),
+    num_tel varchar(25)
+);
+
+CREATE TABLE achats(
+	id_achat int PRIMARY key,
+    id_fournisseur int,
+    date_achat date,
+    motant_total float,
+    FOREIGN KEY (id_fournisseur) REFERENCES fournisseurs(id_fournisseur)
+);
+CREATE TABLE Details_Achats(
+	ID_Detail_Achat int primary KEY,
+    id_achat int,
+    id_produit int,
+    qte_achete int,
+    sous_total float,
+    FOREIGN KEY (id_achat) REFERENCES achats(id_achat),
+    FOREIGN KEY (id_produit) REFERENCES produits(id_produit)
+);
+
+CREATE TABLE ventes(
+	id_vente int PRIMARY KEY,
+    id_client int,
+    date_ventes date,
+    motant_total float,
+    FOREIGN key (id_client) REFERENCES clients(id_clients)
+);
+
+CREATE TABLE Details_Ventes(
+    ID_Detail_Vente int PRIMARY KEY,
+    id_achat int,
+    id_produit int,
+    qte_vendue int,
+    sous_total float,
+    FOREIGN KEY (id_achat) REFERENCES achats(id_achat),
+    FOREIGN KEY (id_produit) REFERENCES produits(id_produit)
+);
+
+CREATE TABLE avances(
+	id_avance int PRIMARY KEY,
+    id_client int,
+    motant_avance float,
+    date_avance date,
+    FOREIGN KEY (id_client) REFERENCES clients(id_clients)
+);
+
+CREATE TABLE Paiements(
+	id_paiment int PRIMARY KEY,
+    id_client int,
+    motant_paiement float,
+    date_paiment date,
+    type_paiment ENUM('virement bancaire' , 'cashe'),
+    FOREIGN KEY (id_client) REFERENCES clients(id_clients)
+);
+
+CREATE TABLE Employees(
+	id_employe int PRIMARY KEY,
+    nom_employe varchar(40),
+    adresse varchar(150),
+    num_tel varchar(25)
+);
+
+CREATE TABLE Affectations(
+	id_affectation int PRIMARY KEY,
+	id_employe int,
+    id_vente int , 
+    FOREIGN KEY (id_employe) REFERENCES employees(id_employe),
+    FOREIGN KEY (id_vente) REFERENCES ventes(id_vente)
+);
+
+CREATE TABLE Caisse(
+	id_caisse int PRIMARY KEY,
+    solde float
+);
+
+CREATE TABLE Transport(
+	id_transport int PRIMARY KEY,
+    nom_transport varchar(30),
+    description varchar(100),
+    cout float
+);
+
+CREATE TABLE Commandes_Fournisseurs(
+	id_commandef int PRIMARY KEY,
+    id_fournisseur int,
+    date_commandeF date,
+    motant_total float,
+    FOREIGN KEY id_fournisseur REFERENCES fournisseurs(id_fournisseur)
+);
+
+CREATE TABLE Commandes_Clients(
+	id_commandeC int PRIMARY KEY,
+    id_client int,
+    date_commandeF date,
+    motant_total float,
+    FOREIGN KEY id_client REFERENCES clients(id_client)
+);
+
+CREATE TABLE Details_Commandes_Fournisseurs(
+	ID_Detail_Commandef int PRIMARY KEY,
+    id_commandef int,
+    id_produit int,
+    qte_commande int,
+    Sous_Total float,
+    FOREIGN KEY (id_commandef) REFERENCES Commandes_Fournisseurs(id_commandef),
+    FOREIGN KEY (id_produit) REFERENCES produits(id_produits)
+);
+
+CREATE TABLE Details_Commandes_Clients(
+	ID_Detail_CommandeC int PRIMARY KEY,
+    id_client int,
+    id_produit int,
+    qte_commande int,
+    Sous_Total float,
+    FOREIGN KEY (id_client) REFERENCES clients(id_client),
+    FOREIGN KEY (id_produit) REFERENCES produits(id_produits)
+);
+
+create table Rapports(
+	id_rapport int primary key,
+    id_client int,
+    id_produit int,
+    FOREIGN KEY (id_client) REFERENCES clients(id_client),
+    FOREIGN KEY (id_produit) REFERENCES produits(id_produits)
+);
+
+CREATE TABLE releve(
+	id_releve int PRIMARY KEY,
+    id_client int , 
+    id_produit int,
+    FOREIGN KEY (id_client) REFERENCES clients(id_client),
+    FOREIGN KEY (id_produit) REFERENCES produits(id_produits)
+);
+
+CREATE TABLE credits(
+	id_credit int primary key,
+    id_client int,
+    id_produit int,
+    montant_paye float,
+    motant_rest float , 
+    FOREIGN KEY (id_client) REFERENCES clients(id_client),
+    FOREIGN KEY (id_produit) REFERENCES produits(id_produits)
+);
+
+CREATE TABLE users(
+	id_user int PRIMARY KEY,
+	role varchar(30),
+    nom varchar(30),
+    email varchar(100),
+    passwordUser varchar(60)
+);

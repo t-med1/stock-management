@@ -1,0 +1,32 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2022-09-03 12:27:23 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:27:23 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:27:23 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:27:23 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:27:23 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:27:23 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:27:23 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:27:23 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:27:23 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:27:23 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:27:23 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:27:23 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:27:23 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:28:22 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:28:22 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:28:22 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:28:22 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:28:22 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:28:22 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:28:22 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:28:22 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:28:22 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:28:22 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:28:22 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:28:22 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:28:22 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/vente/liste.php 81
+ERROR - 2022-09-03 12:35:52 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/produit/details.php 371
+ERROR - 2022-09-03 16:41:26 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/produit/details.php 371
+ERROR - 2022-09-03 18:17:10 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/produit/details.php 371
+ERROR - 2022-09-03 18:41:30 --> Severity: Notice --> Undefined index: num_facture /var/www/html/iatm/application/views/produit/details.php 371

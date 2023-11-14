@@ -1,0 +1,9 @@
+[14-Aug-2023 14:17:56 Africa/Casablanca] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home4/planetbu/public_html/iatm/application/libraries/Zend/Barcode/Object/ObjectAbstract.php on line 1201
+[14-Aug-2023 20:42:48 Africa/Casablanca] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home4/planetbu/public_html/iatm/application/libraries/Zend/Barcode/Object/ObjectAbstract.php on line 1201
+[15-Aug-2023 09:12:19 Africa/Casablanca] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home4/planetbu/public_html/iatm/application/libraries/Zend/Barcode/Object/ObjectAbstract.php on line 1201
+[21-Aug-2023 11:22:12 Africa/Casablanca] PHP Warning:  Unterminated comment starting line 620 in /home4/planetbu/public_html/iatm/application/controllers/Vente.php on line 620
+[22-Aug-2023 14:56:56 Africa/Casablanca] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home4/planetbu/public_html/iatm/application/libraries/Zend/Barcode/Object/ObjectAbstract.php on line 1201
+[24-Aug-2023 12:23:24 Africa/Casablanca] PHP Fatal error:  Cannot redeclare Client::getData() in /home4/planetbu/public_html/iatm/application/controllers/Client.php on line 638
+[24-Aug-2023 12:23:38 Africa/Casablanca] PHP Fatal error:  Cannot redeclare Client::getData() in /home4/planetbu/public_html/iatm/application/controllers/Client.php on line 638
+[24-Aug-2023 12:24:04 Africa/Casablanca] PHP Fatal error:  Cannot redeclare Client::getData() in /home4/planetbu/public_html/iatm/application/controllers/Client.php on line 638
+[24-Aug-2023 15:13:06 Africa/Casablanca] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home4/planetbu/public_html/iatm/application/libraries/Zend/Barcode/Object/ObjectAbstract.php on line 1201
